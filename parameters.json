@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "loadBalancers_LB_name": {
+            "value": null
+        },
+        "virtualMachines_Web1_name": {
+            "value": null
+        },
+        "virtualMachines_Web2_name": {
+            "value": null
+        },
+        "sshPublicKeys_AzureWeb_name": {
+            "value": null
+        },
+        "publicIPAddresses_LBIP_name": {
+            "value": null
+        },
+        "publicIPAddresses_Web1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_Web2_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_web1208_z2_name": {
+            "value": null
+        },
+        "networkInterfaces_web2415_z2_name": {
+            "value": null
+        },
+        "virtualNetworks_GL_Test1_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Web1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Web2_nsg_name": {
+            "value": null
+        }
+    }
+}
